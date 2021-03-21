@@ -1,0 +1,125 @@
+body{
+    /*font-family: 'Roboto';
+    font-family: 'Inconsolata', monospace;*/
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 14px;
+    background: #5cb8ff;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;*/
+    padding: 20px 30px 20px 30px;
+}
+
+.titular{
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+header{
+    background: url(pics/WallBL.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.contenedor{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.contenedor-sobremi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+
+.contenedor-parrafo-y-boton{
+    width: 42%;
+}
+
+.contenedor-parrafo-y-boton p{
+    font-size: 18px;
+}
+
+.contenedor-parrafo-y-boton a{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.contenedor-servicios{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.servicio{
+    width: 40%;
+    padding: 25px 25px 25px 25px;
+    border-radius: 10px;
+    margin: 25px 25px 25px 25px;
+}
+
+.violeta{
+    background: #5055df;
+}
+
+.celeste{
+    background: #40a8fa;
+}
+
+.contenedor-servicios p{
+    font-size: 18px;
+    justify-content: space-around;
+}
+.servicio h4{
+    font-size: 30px;
+}
+
+.menu a {
+    color: black;
+    background: transparent;
+    font-size: 17px;
+}
